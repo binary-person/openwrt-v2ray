@@ -31,6 +31,9 @@ jobs:
           - arch: arm_cortex-a5-vfpv4
             sdk_url_path: https://downloads.openwrt.org/snapshots/targets/at91/sama5
             sdk_name: -sdk-at91-sama5_
+          - arch: arm_cortex-a7
+            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/mediatek/mt7629
+            sdk_name: -sdk-mediatek-mt7629_
           - arch: arm_cortex-a7_neon-vfpv4
             sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm27xx/bcm2709
             sdk_name: -sdk-bcm27xx-bcm2709_
